@@ -113,4 +113,48 @@ The application emphasizes **security, usability, and performance**.
 
 ---
 
-## 📂 Project Structure
+
+---
+
+## ⚙️ How to Run
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Gudivaka-Dijendra-Pavan-Kumar/RevPasswordManager-P2.git
+
+cd revPasswordmanager
+
+mvn spring-boot:run
+
+http://localhost:8080
+
+mvn test
+
+
+📊 Definition of Done
+
+✅ Fully functional web application
+
+✅ Secure password storage & encryption
+
+✅ GitHub repository with complete code
+
+✅ README documentation
+
+✅ Testing implementation
+
+✅ Security features implemented
+
+
+👨‍💻 Author
+
+Pavan Kumar Gudivaka
+
+GitHub: https://github.com/Gudivaka-Dijendra-Pavan-Kumar
+
+
+⭐ Support
+
+If you found this project useful, please ⭐ the repository!
+
