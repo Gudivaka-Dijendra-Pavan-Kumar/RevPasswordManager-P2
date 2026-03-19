@@ -1,0 +1,67 @@
+2026-03-19 10:20:17.235 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-03-19 10:20:17.303 [restartedMain] INFO  com.revpasswordmanager.RevPasswordmanagerApplication - Starting RevPasswordmanagerApplication using Java 17.0.5 with PID 49440 (D:\Spring projects\main\revPasswordmanager (4)\revPasswordmanager\revPasswordmanager\target\classes started by 91901 in D:\Spring projects\main\revPasswordmanager (4)\revPasswordmanager\revPasswordmanager)
+2026-03-19 10:20:17.316 [restartedMain] INFO  com.revpasswordmanager.RevPasswordmanagerApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-19 10:20:17.407 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-19 10:20:17.407 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-19 10:20:18.618 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-19 10:20:18.731 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100 ms. Found 7 JPA repository interfaces.
+2026-03-19 10:20:19.805 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 9097 (http)
+2026-03-19 10:20:19.832 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9097"]
+2026-03-19 10:20:19.835 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-19 10:20:19.835 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-19 10:20:19.936 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-19 10:20:19.939 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2527 ms
+2026-03-19 10:20:20.246 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-19 10:20:20.330 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-19 10:20:20.395 [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-19 10:20:20.912 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-19 10:20:20.972 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-19 10:20:21.455 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f626edf
+2026-03-19 10:20:21.458 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-19 10:20:21.608 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-19 10:20:21.610 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-19 10:20:21.640 [restartedMain] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-19 10:20:22.894 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-19 10:20:23.110 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19 10:20:23.747 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-19 10:20:23.801 [restartedMain] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userServiceImpl
+2026-03-19 10:20:23.930 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-03-19 10:20:24.575 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-19 10:20:24.594 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9097"]
+2026-03-19 10:20:24.636 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 9097 (http) with context path '/'
+2026-03-19 10:20:24.653 [restartedMain] INFO  com.revpasswordmanager.RevPasswordmanagerApplication - Started RevPasswordmanagerApplication in 7.793 seconds (process running for 8.936)
+2026-03-19 10:20:37.371 [http-nio-9097-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19 10:20:37.372 [http-nio-9097-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-19 10:20:37.374 [http-nio-9097-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-03-19 10:20:38.171 [http-nio-9097-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-19 10:20:40.512 [http-nio-9097-exec-4] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-19 10:21:29.560 [http-nio-9097-exec-5] INFO  com.revpasswordmanager.serviceimpl.AuthServiceImpl - Registration attempt — username: [Pavan], email: [first123@gmail.com]
+2026-03-19 10:21:29.833 [http-nio-9097-exec-5] WARN  com.revpasswordmanager.serviceimpl.AuthServiceImpl - Registration failed — username already exists: [Pavan]
+2026-03-19 10:21:29.839 [http-nio-9097-exec-5] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [java.lang.RuntimeException: Username "Pavan" is already taken. Please choose a different username.]
+2026-03-19 10:21:37.204 [http-nio-9097-exec-6] INFO  com.revpasswordmanager.serviceimpl.AuthServiceImpl - Registration attempt — username: [Pavan13], email: [first123@gmail.com]
+2026-03-19 10:21:37.838 [http-nio-9097-exec-6] INFO  com.revpasswordmanager.serviceimpl.AuthServiceImpl - Registration successful — userId: [5], username: [Pavan13]
+2026-03-19 10:21:40.024 [http-nio-9097-exec-8] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-19 10:21:53.903 [http-nio-9097-exec-9] INFO  com.revpasswordmanager.serviceimpl.AuthServiceImpl - Login attempt — username: [first123@gmail.com]
+2026-03-19 10:21:53.909 [http-nio-9097-exec-9] WARN  com.revpasswordmanager.serviceimpl.AuthServiceImpl - Login failed — user not found: [first123@gmail.com]
+2026-03-19 10:21:53.911 [http-nio-9097-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [java.lang.RuntimeException: User not found]
+2026-03-19 10:21:59.357 [http-nio-9097-exec-10] INFO  com.revpasswordmanager.serviceimpl.AuthServiceImpl - Login attempt — username: [first123pk@gmail.com]
+2026-03-19 10:21:59.363 [http-nio-9097-exec-10] WARN  com.revpasswordmanager.serviceimpl.AuthServiceImpl - Login failed — user not found: [first123pk@gmail.com]
+2026-03-19 10:21:59.366 [http-nio-9097-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [java.lang.RuntimeException: User not found]
+2026-03-19 10:22:43.076 [http-nio-9097-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-19 10:22:55.401 [http-nio-9097-exec-4] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-19 10:23:03.174 [http-nio-9097-exec-5] INFO  com.revpasswordmanager.serviceimpl.AuthServiceImpl - Login attempt — username: [Pavan13]
+2026-03-19 10:23:03.291 [http-nio-9097-exec-5] INFO  com.revpasswordmanager.serviceimpl.AuthServiceImpl - Login successful — userId: [5], username: [Pavan13]
+2026-03-19 10:23:04.411 [http-nio-9097-exec-9] INFO  com.revpasswordmanager.serviceimpl.VaultServiceImpl - Returned [0] vault entries for userId: [5]
+2026-03-19 10:23:04.552 [http-nio-9097-exec-10] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-19 10:23:08.160 [http-nio-9097-exec-4] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-19 10:24:56.946 [http-nio-9097-exec-7] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-19 10:25:16.059 [http-nio-9097-exec-3] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-19 10:25:29.149 [http-nio-9097-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-03-19 10:27:04.877 [http-nio-9097-exec-2] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
